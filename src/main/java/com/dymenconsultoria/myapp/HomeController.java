@@ -1,5 +1,6 @@
 package com.dymenconsultoria.myapp;
 
+import java.io.IOException;
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
@@ -27,12 +28,13 @@ public class HomeController {
 	
 	/**
 	 * Simply selects the home view to render by returning its name.
+	 * @throws IOException 
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) {
+	public String home(Locale locale, Model model) throws IOException {
 		
 		
-		String hola = curso.hola();
+		String hola = curso.getCursos();
 		
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
