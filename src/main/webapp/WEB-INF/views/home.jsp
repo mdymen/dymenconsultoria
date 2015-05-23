@@ -1,47 +1,6 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html lang="en">
 
-    <head>
-
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-
-        <title>Dymen Consultoria</title>
-
-        <!-- Bootstrap Core CSS -->
-        <link href="<c:url value="resources/bootstrap/css/bootstrap.min.css" />" rel="stylesheet">
-
-        <!-- Font Awesome CSS -->
-        <link href="<c:url value="resources/css/font-awesome.min.css" />" rel="stylesheet">
-		
-		<!-- Custom CSS -->
-        <link href="<c:url value="resources/css/animate.css" />" rel="stylesheet">
-
-        <!-- Custom CSS -->
-        <link href="<c:url value="resources/css/style.css" />" rel="stylesheet">
-
-        <!-- Custom Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-
-
-        <!-- Template js -->
-        <script src="<c:url value="resources/js/jquery-2.1.1.min.js" />" ></script>
-        <script src="<c:url value="resources/bootstrap/js/bootstrap.min.js" />"></script>
-        <script src="<c:url value="resources/js/jquery.appear.js" />"></script>
-        <script src="<c:url value="resources/js/contact_me.js" />" ></script>
-        <script src="<c:url value="resources/js/jqBootstrapValidation.js" />" ></script>
-        <script src="<c:url value="resources/js/modernizr.custom.js" />" ></script>
-        <script src="<c:url value="resources/js/script.js" />"></script>
-
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-    </head>
     
     <body>
         
@@ -1045,20 +1004,19 @@
                 <div class="container">
                     <div class="row">
                         <div class="section-title text-center">
-                            <h3>Contact With Us</h3>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate</p>
+                            <h3>Contato</h3>
+<!--                             <p>Duis aute irure dolor in reprehenderit in voluptate</p> -->
                         </div>
                     </div>
                     <div class="row">
                         
                         <div class="col-md-4">
                             <div class="footer-contact-info">
-                                <h4>Contact info</h4>
+                                <h4>informações de contato</h4>
                                 <ul>
-                                    <li><strong>E-mail :</strong> your-email@mail.com</li>
-                                    <li><strong>Phone :</strong> +8801-6778776</li>
-                                    <li><strong>Mobile :</strong> +8801-45565378</li>
-                                    <li><strong>Web :</strong> yourdomain.com</li>
+                                    <li><strong>E-mail :</strong> info@dymenconsultoria.com</li>
+                                    <li><strong>Mobile :</strong> (19) 99 515 3384</li>
+                                    <li><strong>Web :</strong> http://www.dymenconsultoria.com</li>
                                 </ul>
                             </div>
                         </div>
@@ -1066,11 +1024,7 @@
                         <div class="col-md-4">
                             <div class="footer-social text-center">
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                     <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                                 </ul>
                             </div>
                         </div>
